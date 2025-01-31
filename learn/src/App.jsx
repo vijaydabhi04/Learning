@@ -11,6 +11,7 @@ import ExampleUseMemo from './concepts/useMemo'
 import ExampleUseCallback from './concepts/useCallback'
 import ExampleuseImperativeHandle from './concepts/useImperativeHandle'
 import ExampleuseLayoutEffect from './concepts/useLayoutEffect'
+import ExampleuseDeferredValue from './concepts/useDeferredValue'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +26,8 @@ function App() {
       {/* <ExampleUseMemo /> */}
       {/* <ExampleUseCallback /> */}
       {/* <ExampleuseImperativeHandle /> */}
-      <ExampleuseLayoutEffect/>
+      {/* <ExampleuseLayoutEffect/> */}
+      <ExampleuseDeferredValue/>
     </>
   )
 }
